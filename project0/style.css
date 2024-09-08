@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(32,33,36);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+#index
+{
+    
+}
+
+.head-list li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#float-left{
+    margin: 20px 30px;
+    display: inline-block;
+}
+
+#float-right{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#mid-content{
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+input[type="text"]{
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgb(32,33,36);
+    border: 1px solid whitesmoke;
+}
+
+#search{
+    display: block;
+    margin-top: 20px;
+
+}
+
+#gsearch , #flucky{
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(48,49,52);
+    border-radius: 10px;
+    border: none;
+    color: azure;
+    font-size: 16px;
+}
+#gsearch{
+    margin-right: 20px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+p{
+    height: 30px;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.foo1 li{
+    display: inline;
+    float: left;
+    padding: 10px 10px 20px 20px;
+}
+
+
+.foo2 li{
+    display: inline;
+    padding: 10px 10px 20px 20px;
+    float: right;
+    margin-right: 20px;
+    
+}
